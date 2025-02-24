@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luiz Lara - Psicologia</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body { 
+            font-family: "Playfair Display", serif; 
+            background-color: #FAE7D5; 
+            color: #5A3E2B; 
+        }
+        .hero {
+            height: 100vh; display: flex; align-items: center; justify-content: center;
+            text-align: center; background: url('/mnt/data/IMG-20250109-WA0017.jpg') no-repeat center center/cover;
+            color: white; position: relative;
+        }
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero div {
+            position: relative;
+            z-index: 1;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px; border-radius: 10px;
+        }
+        .hero h1 { font-size: 3rem; font-weight: 400; }
+        .section { padding: 60px 20px; }
+        .btn-primary { background-color: #8B5E3B; border: none; }
+        .btn-primary:hover { background-color: #A67C52; }
+        .footer { text-align: center; padding: 20px; background: #5A3E2B; color: white; }
+        .carousel img { height: 500px; object-fit: cover; }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div>
+            <h1>Luiz Lara - Psicologia</h1>
+            <p>Um espaço de escuta e acolhimento</p>
+            <a href="https://wa.me/seu_numero" class="btn btn-primary mt-3">Agendar Consulta</a>
+        </div>
+    </header>
+    
+    <section class="section container text-center">
+        <h2>Sobre Mim</h2>
+        <p>Sou Luiz Lara, psicólogo especializado em escuta clínica e processos terapêuticos.</p>
+        <img src="/mnt/data/IMG-20250109-WA0018.jpg" class="img-fluid rounded mt-3" alt="Foto do consultório">
+    </section>
+    
+    <section class="section bg-light container text-center">
+        <h2>Minha Abordagem</h2>
+        <p>Trabalho com base na psicanálise, proporcionando um espaço seguro para autoconhecimento.</p>
+    </section>
+    
+    <section id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/mnt/data/IMG-20250109-WA0019.jpg" class="d-block w-100" alt="Imagem 1">
+            </div>
+        </div>
+    </section>
+    
+    <section class="section container text-center">
+        <h2>Contato</h2>
+        <p>Email: seuemail@email.com</p>
+        <p>WhatsApp: <a href="https://wa.me/seu_numero">Clique aqui para falar comigo</a></p>
+    </section>
+    
+    <footer class="footer">
+        <p>&copy; 2024 Luiz Lara - Psicologia</p>
+    </footer>
+</body>
+</html>
