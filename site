@@ -14,7 +14,7 @@
         }
         .hero {
             height: 100vh; display: flex; align-items: center; justify-content: center;
-            text-align: center; background: url('/mnt/data/IMG-20250109-WA0017.jpg') no-repeat center center/cover;
+            text-align: center; background: url('images/IMG-20250109-WA0017.jpg') no-repeat center center/cover;
             color: white; position: relative;
         }
         .hero::before {
@@ -49,7 +49,7 @@
     <section class="section container text-center">
         <h2>Sobre Mim</h2>
         <p>Sou Luiz Lara, psicólogo especializado em escuta clínica e processos terapêuticos.</p>
-        <img src="/mnt/data/IMG-20250109-WA0018.jpg" class="img-fluid rounded mt-3" alt="Foto do consultório">
+        <img src="images/IMG-20250109-WA0018.jpg" class="img-fluid rounded mt-3" alt="Foto do consultório">
     </section>
     
     <section class="section bg-light container text-center">
@@ -60,7 +60,7 @@
     <section id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/mnt/data/IMG-20250109-WA0019.jpg" class="d-block w-100" alt="Imagem 1">
+                <img src="images/IMG-20250109-WA0019.jpg" class="d-block w-100" alt="Imagem 1">
             </div>
         </div>
     </section>
